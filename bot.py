@@ -15,7 +15,7 @@ openai.api_key = os.environ["OPENAI_TOKEN"]
 
 documents = []  # Храним загруженные документы в памяти
 
-ADMIN_USER_ID = 1574455983
+ADMIN_USER_ID = os.environ["ADMIN_USERID"]
 upload = 0
 
 upl = InlineKeyboardMarkup(inline_keyboard=[
